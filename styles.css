@@ -1,4 +1,13 @@
-h1{ background-color:aqua aqua;
-} 
+cssh1{
+    background-color: red;
+    color:royalblue
+}
+h2{
+    background-color: brown;
+    color:hotpink
+}
 
-
+li{font-size: xx-large;
+font-weight: bolder;
+color:blueviolet
+;}
