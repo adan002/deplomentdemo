@@ -1,7 +1,7 @@
 const bigButton = document.querySelector('#uwu')
 
 const message = () => {
-    alert('Whatever ya say boomer!!!')
+    alert('you made the right choice!!!')
 }
 
 bigButton.addEventListener('click', message)
