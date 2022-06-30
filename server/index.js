@@ -35,6 +35,6 @@ try {blah()}
 catch (error) {
     rollbar.error(error)
     rollbar.info('Students List Requested')
-    rollbar.warning('stuff is going wrong')
+    rollbar.critical('stuff is going wrong')
     rollbar.critical('everything is on fire')
 }
