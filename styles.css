@@ -1,13 +1,13 @@
-cssh1{
-    background-color: red;
-    color:royalblue
+h1{
+    background-color: rgb(147, 139, 139);
+    color:lawngreen
 }
 h2{
-    background-color: brown;
-    color:hotpink
+    background-color:rgb(137, 147, 142);
+    color:lawngreen
 }
 
 li{font-size: xx-large;
 font-weight: bolder;
-color:blueviolet
+color:rgb(179, 36, 36)
 ;}
