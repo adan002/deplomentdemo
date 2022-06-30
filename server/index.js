@@ -11,7 +11,18 @@ var rollbar = new Rollbar({
 })
 
 // record a generic message and send it to Rollbar
-rollbar.log('Hello world!')
+rollbar.log('Hello!')
+
+rollbar.info('Students List Requested')
+    rollbar.error('stuff is going wrong')
+    rollbar.critical('everything is on fire')
+    rollbar.warning('jk')
+    res.status(200).send(students)
+
+try {blah()}
+catch (error) {
+    rollbar.error(error)
+}
 
 app.get('/',function(req,res) {
   res.sendFile(path.join(__dirname, '../index.html'));
