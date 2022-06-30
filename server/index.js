@@ -15,8 +15,8 @@ rollbar.log('Hello!')
 
 rollbar.info('Students List Requested')
     rollbar.error('stuff is going wrong')
-    rollbar.critical('everything is on fire')
-    rollbar.warning('jk')
+    rollbar.critical('lethal error !!computer infected!!')
+    rollbar.warning('virus detected')
     res.status(200).send(students)
 
 try {blah()}
