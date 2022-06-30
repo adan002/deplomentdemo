@@ -41,11 +41,3 @@ const port = process.env.PORT || 4005
 app.listen(port, () => {
   console.log(`Listening on port ${port}`)
 })
-
-try {blah()}
-catch (error) {
-    rollbar.error(error)
-    rollbar.info('Students List Requested')
-    rollbar.warning('stuff is going wrong')
-    rollbar.critical('everything is on fire')
-}
